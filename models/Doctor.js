@@ -8,8 +8,9 @@ const doctorSchema = mongoose.Schema({
     npi: {type: String},
     education: [ String ],
     address:{type: String},
+    city:{type:String},
     zipcode:{type: Number},
-    reviews:[ String ]
+    img: {type: String},
 }, {timestamp: true })
 
 const Doctor = mongoose.model("Doctor",doctorSchema)
