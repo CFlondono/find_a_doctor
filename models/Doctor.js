@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const doctorSchema = mongoose.Schema({
     name: {type: String, require: true},
     lastname: {type: String, require: true},
-    specialities: [ String ],
+    specialties: [ String ],
     languages : [ String ],
     npi: {type: String},
     education: [ String ],
