@@ -6,7 +6,7 @@ require('./db')
 
 //APP CONFIGS
 const PORT = process.env.PORT || 9000
-const acceptList = ["http://localhost:3000", "https://wizardly-babbage-093310.netlify.app"]
+const acceptList = ["http://localhost:3000", "https://doctorfinderbyclaudia.netlify.app"]
 const options = {
     origin: function(origin, callback){
         // if the origin argument is in the acceprlist -> continue
